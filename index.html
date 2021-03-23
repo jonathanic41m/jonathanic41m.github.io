@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TORTAS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            html {font-family: sans-serif; text-align: center}
+            body {display: inline-block; text-align: left}
+            label, legend {font-weight: bold}
+            *:required, .obligatorio {border: thin solid blue}
+            input[type=number], .numero {text-align: right}
+            dfn {font-weight: bold}
+            br + output, fieldset + output, footer, form em {font-size: small}
+            fieldset p {margin: 0}
+            fieldset label, label * {font-weight: normal}
+            .error {color: red}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Seleccione las tortas que desea llevar</h1>
+        </header>
+   
+        <form id="forma" action="javascript:;">
+           
+                Menu De Tortas
+                    <div>
+                  
+                        <input type="checkbox" accesskey="S" name="tortas"
+                               value="Hawaiana" data-number="45">
+                        Hawaian $45
+                   
+                </div>
+                <div>
+                         <input type="checkbox" accesskey="S" name="tortas"
+                               value="Cubana" data-number="50">
+                        Cubana $50
+                  
+                </div>
+                <div>
+                    
+                        <input type="checkbox" accesskey="S" name="tortas"
+                               value="Mexicana" data-number="60">
+                        Mexicana $60
+                
+                </div>
+                <div>
+                 
+                        <input type="checkbox" accesskey="S" name="tortas"
+                               value="Suiza" data-number="90">
+                        Suiza $90
+                  
+                </div>
+                <div>
+                   
+                        <input type="checkbox" accesskey="S" name="tortas"
+                               value="Española" data-number="50">
+                        Española $50
+                    
+                </div>
+                <div>
+                   
+                    <input type="checkbox" accesskey="S" name="tortas"
+                           value="Jamon" data-number="40">
+                    Jamon $50
+                
+            </div>
+           
+            <output id="salidaT"></output><br>
+            <output id="salidaT1"></output>
+        </form>
+        <footer>
+            @Copyright 2021 jonathan Axel Badillo Valdez
+        </footer>
+        <script src="js/javascript.js"></script>
+    </body>
+</html>
